@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+#nthPage{
+    background-image: url(../Images/brickwalls.png);
+    background-position:center;
+    background-size: cover;
+    height:870px;
+    
+}
+
+#nthAnnounce{
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    width:100%;
+    height:10%;
+    background-color: white;
+    opacity: 50%;
+    border-radius: 25px;
+    text-align:center;
+}
+
+.nthText{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 100%;
+    position: sticky;
+    
+
+}
