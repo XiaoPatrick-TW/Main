@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
-
+@font-face {
+    font-family: wght500;
+    src: url(../Fonts/NotoSansTC-Medium.otf);
+}
 #nthPage{
     background-image: url(../Images/brickwalls.png);
     background-position:center;
     background-size: cover;
-    height:870px;
+    height: 860px;
     
 }
 
@@ -17,15 +19,25 @@
     background-color: white;
     opacity: 50%;
     border-radius: 25px;
-    text-align:center;
+    
+}
+#nthImg{
+    position: absolute;
+    top: 42%;
+    left: 30%;
+    background-image: url(../Images/XiaoPatrick_Head_Undone_3D.png);
+    background-size: cover;
+    width:10%;
+    height:13.75%;
+    
 }
 
-.nthText{
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
+#nthText{
+    position: absolute;
+    top: 47.5%;
+    left:39%;
+    font-size: 200%;
+    font-family: wght500;
     font-weight: bold;
-    opacity: 100%;
-    position: sticky;
-    
-
+    opacity: 1;
 }
